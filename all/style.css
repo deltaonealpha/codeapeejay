@@ -1,0 +1,155 @@
+body {
+  background: linear-gradient(-45deg,#8360c3,#2ebf91);
+  background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+  width:100%;
+  margin-top: 150px;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.login-left {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  margin-top: 80px;
+  margin-left: 0px;
+}
+
+.login-left img {
+  margin-top: 60px;
+  margin-bottom: 18px;
+  width: 80px;
+  animation: mover .5s infinite alternate;
+}
+
+.login-left p {
+  padding: 20px 20px 0;
+}
+
+.login-left .btn-primary {
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  background: #F8F8F8;
+  font-weight: 600;
+  color: #555;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.login-left .btn-primary:hover {
+  background: #000;
+}
+
+.register-right {
+  border: none;
+  background: #F8F8F8;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  padding: 50px;
+  margin-top: 80px;
+}
+
+.register-right h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.register-form {
+  padding: 30px;
+}
+
+.register-right .btn-primary {
+  float: right;
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  background: #FF9800;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.register-right .btn-primary:hover {
+  background: #ff5722;
+}
+
+
+
+
+.register-cent {
+  border: none;
+  background: #F8F8F8;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  padding: 50px;
+  margin-top: 120px;
+}
+
+.register-cent h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.register-form {
+  padding: 30px;
+}
+
+.register-cent .btn-primary {
+  float: right;
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  background: #FF9800;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.register-cent .btn-primary:hover {
+  background: #ff5722;
+}
+
+@keyframes mover {
+   0%{transform: translateY(0);}
+   100%{transform: translateY(-20px);}
+}
+
+@media (max-width:520px)  {
+
+    .login-left {
+      padding: 0;
+      margin: 0;
+    }
+
+    .register-right, .register-cent {
+      border-top-left-radius: 00% 0%;
+      border-bottom-left-radius: 0% 0%;
+    }
+
+    #start{
+        background: linear-gradient(-45deg,#8360c3,#2ebf91);
+        background-size: 400% 400%;
+        color:#ffdee9;
+        -webkit-animation: Gradient 15s ease infinite;
+        -moz-animation: Gradient 15s ease infinite;
+        animation: Gradient 15s ease infinite;
+    }
+  }

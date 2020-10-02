@@ -1,0 +1,78 @@
+html,body{
+    width:100%;
+    height:100%;
+    background-color:black;
+}
+nav{
+
+color:#eee;
+width:100%;
+
+}
+span{
+    color :white;
+    font-size: 2em;
+}
+.navbar-brand{
+display: none;
+}
+.navbar-menu,.navbar-start{
+justify-content: center ;
+text-align: center;
+width:100%;
+}
+.rules{
+    width:30%;
+    color:#eee;
+    display:block;
+    text-align:left;
+    margin:0 auto;
+}
+.rules li{
+    margin: 10px 0;
+}
+@media screen and (max-width: 992px) {
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+}
+}
+.parent{
+    width:100%;
+    /*margin-top:10%;*/
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Question{
+    font-size:3em;
+    color:#eee;
+    font-size: bold;
+}
+button[type="submit"]{
+    padding:5px;
+    margin:5px;
+    color:#eee;
+    border:none;
+    background-color: #cf455c;
+}
+input[type="text"]{
+    width:40%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    height:80%;
+    overflow-y:scroll;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  

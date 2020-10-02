@@ -1,0 +1,64 @@
+html,body{
+  margin:0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  color:white;
+  min-height: 700px;
+}
+a{
+  text-decoration-color: orange;
+  color: orange;
+}
+body{
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#signup-form{
+  height: 100vh;
+  width: 80vw;
+  padding: 30px 70px 30px 70px;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 1;
+}
+.text{
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  font-size: 16px !important;
+  box-shadow: none;
+  border: none;
+  color: white;
+  line-height: 22px;
+  height:40px;
+  width:100%;
+  -webkit-transition: all 0.2s linear;
+  border-bottom: 2px solid grey;
+
+  text-decoration-style: 3px solid;
+  /* border-bottom: 100px grey 2px; */
+  padding-top: 10px !important;
+  padding-bottom: 4px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+h1{
+  font-family: Roboto;
+  border-bottom: 5px solid orange;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+p{
+  font-family: Arial;
+}
