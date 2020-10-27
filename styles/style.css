@@ -145,60 +145,28 @@ font-size: 1.2em;
     text-align:center;
 }
 .person1{
-    background-image:url("../assets/members/Srihari.jpg");   
+    background-image:url("../assets/members/delta.png");
 }
 .person2{
-   background-image:url("../assets/members/Sitaraman_Subramanium.jpg");
+    background-image:url("../assets/members/srihari.png");   
 }
-.person3{
-   background-image:url("../assets/members/Aditya_Phukan.jpg");
-}
-
-.person4{
-   background-image:url("../assets/members/Soumil.jpg");
-}
-.person5{
-     background-image:url("../assets/members/Soham.jpg");
-}
-.person7{
-   background-image:url("../assets/members/Arnav.jpg");
-}
-.person8{
-   background-image:url("../assets/members/Chirag.jpg");
-}
-.person9{
-    background-image:url("../assets/members/jayant.jpg");
-}
-.person18{
-    background-image:url("../assets/members/vasu.jpg");
-}
-.person10{
-    background-image:url("../assets/members/raghavi.jpg");
-}
-.person11{
-    background-image:url("../assets/members/dhruv.jpg");
-}
-.person12{
-    background-image:url("../assets/members/jaya.jpg");
-}
-.person13{
-    background-image:url("../assets/members/Hatel.jpg");
-}
-.person14{
-     
+.person3{     
     background-image:url("../assets/members/amaiya.png");
 }
-.person15{
-    background-image:url("../assets/members/Virtulya.jpg");
+.person4{     
+    background-image:url("../assets/members/achintya.png");
 }
-.person16{
-    background-image:url("../assets/members/Parth.jpg");
+.person5{     
+    background-image:url("../assets/members/fotedaar.png");
 }
-.person17{
-    background-image:url("../assets/members/pranav.jpg");
+.person6{     
+    background-image:url("../assets/members/sehgal.png");
 }
-.person19{
-    background-image:url("../assets/members/Manaal.jpg");
+.person7{     
+    background-image:url("../assets/members/shaumit.png");
+}
+.person8{     
+    background-image:url("../assets/members/sushant.png");
 }
 .imagePerson{
     opacity: 0.60;
