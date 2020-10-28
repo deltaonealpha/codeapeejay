@@ -260,6 +260,9 @@ header{
 .dropdown{
     display: none;
 }
+h1{
+    font-size:inherit;
+}
 .drop-btn::hover{
     background: white;
     color: transparent;
