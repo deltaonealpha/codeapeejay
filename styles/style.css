@@ -171,6 +171,13 @@ font-size: 1.2em;
 .person9{     
     background-image:url("../assets/members/jayant.png");
 }
+.person10{     
+    background-image:url("../assets/members/pari.png");
+}
+.person11{     
+    background-image:url("../assets/members/agam.png");
+}
+
 .imagePerson{
     opacity: 0.60;
     margin:0.5em;
