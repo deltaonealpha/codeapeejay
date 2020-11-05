@@ -121,6 +121,14 @@ font-size: 1.2em;
     justify-content: center;
     text-align: center;
 }
+#delta2{
+    display: flex;
+    font-size: 120%;
+    background-color: #393e46;
+    color:white;
+    justify-content: center;
+    text-align: left;
+}
 #intro2 div{
     padding:5vh;
     width:20vw;
