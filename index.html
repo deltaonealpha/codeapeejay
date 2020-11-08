@@ -45,10 +45,10 @@
   </header>
 
 <div id = "bg-full" >
-<div id="center-text-start" style="padding-top:50px;" >
+<div  id="center-text-start" style="padding-top:50px;" >
   <div><h1>CODE</h1></div>
   <div class="p1"> Veni . Vidi . Vici</div>
-  <div>November 26 & 27, 2020</div>
+  <div>26 & 27 November, 2020</div>
   <div>
 <a href="https://discord.gg/v5sc9jw"><button class="button-hov" style="font-family:'Roboto';">Join the CODE Discord server!</button></a>
 <a href="https://www.notion.so/deltaonealpha/c00b3b66b087433ea0b25c483b488bbd?v=a53f839045de4a3e89bc95f135f1f550"><button class="button-hov" style="font-family:'Roboto';">FAQ</button></a>
@@ -60,11 +60,28 @@
   <canvas class="background"></canvas>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 
-</div>
+</div><span id="about" style="margin-top:100px;"></span>
+<script>
+  $(".showCode").hide();
+  $(".header-right").hide();
+  window.onscroll = function () {
+    console.log(document.body.scrollTop)
+    if (document.documentElement.scrollTop > 100) {
+      $(".header-right").fadeIn()
+      $(".showCode").fadeIn();
+      $("#center-text-start").fadeOut(150);
+    } else {
+      $(".showCode").fadeOut();
+      $(".header-right").fadeOut()
+      $("#center-text-start").fadeIn(150);
+    }
+  }
+  
+</script>
 
 <div style="background-color:rgb(5, 5, 5);"><br /><iframe width="560" height="315" src="https://www.youtube.com/embed/FTSRkdVUduo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br /></div>
 
-<div id="intro" >
+<div id="intro">
 
 <div id="intro2" style="text-align:center">
 <h4 style="font-weight: bold;font-size: 1.1em" class="header-top">CODE. <br>VENI. VIDI. VICI.</h4>
