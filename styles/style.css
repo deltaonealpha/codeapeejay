@@ -133,7 +133,11 @@ font-size: 1.2em;
     padding:5vh;
     width:20vw;
 }
-
+#div, iframe {
+    width: 410px;
+    height: 430px;
+    margin: 2rem;
+}
 #intro3{
     display: flex;
     justify-content:center;
@@ -270,10 +274,13 @@ header{
     color:white;
     font-size: 2em;
     cursor: pointer;
-    border: none;
+    border: none;    
+
 }
+button:focus {outline:0;}
 .drop-btn::active{
     border:none;
+    outline:none;
 }
 .dropdown{
     display: none;
