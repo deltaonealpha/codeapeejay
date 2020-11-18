@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/registrations.html/", "destination": "/registrations.html" },
+    { "source": "/registration.html/", "destination": "/registration.html" },
   ]
 }
