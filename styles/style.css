@@ -370,6 +370,7 @@ a:hover{
    }
    .people{
        flex-direction:column;
+       flex-wrap: wrap-reverse;
    }
   }
 
